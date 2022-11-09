@@ -1,0 +1,45 @@
+.App{
+  width: 100%;
+  max-width: 900px;
+  max-height: 90px;
+  margin:0 auto;
+  min-height:100vh ;/*minima altura*/
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.inner{
+  display:flex;
+  
+}
+.item{
+  min-height: 200px;
+  min-width: 400px;
+  padding: 14px;
+}
+.item img{
+  width: 100%;/*largura da img*/
+  height: 90%;/*altura da img*/
+  border-radius: 12px;
+  pointer-events: none;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+
+}
+.carousel {
+  cursor:grab;  /*cursor */
+  overflow: hidden; /**/
+}
+.fundo{
+background-color: rgb(184, 97, 255);
+visibility: visible;
+opacity: 1;
+  
+}
+
+
+
+
+
+
+
+
